@@ -12,9 +12,9 @@ const LoginScreen = ({ navigation }) => {
     if (!email || !password) {
       setShowAlert(true);
       return;
-    }
-
-    const loginData = {
+    }else{
+      setShowAlert(false);
+       const loginData = {
       name: email,
       password: password
     };
@@ -29,6 +29,9 @@ const LoginScreen = ({ navigation }) => {
       }
     }).then((res) => navigation.navigate('Trangchu'))
       .catch(err => console.log(err))
+    }
+
+   
   };
 
   return (

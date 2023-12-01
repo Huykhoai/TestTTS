@@ -38,6 +38,21 @@
       "name": "huy",
       "password": "1123",
       "id": 9
+    },
+    {
+      "name": "huy",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "huy",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "huy",
+      "password": "123",
+      "id": 12
     }
   ],
   "listworks": [
@@ -70,6 +85,12 @@
       "mota": "fdvdfvd",
       "thoihan": "fvdfvv",
       "id": 5
+    },
+    {
+      "tieude": "viết api",
+      "mota": "Viet api sua xoa",
+      "thoihan": "3/12",
+      "id": 6
     }
   ]
 }
